@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Specify here the default panel id to display --> 
+    <default_panel>panel_1</default_panel>
+    <panels>
+        <!-- Panel node, each id attribute mus be unique in this config file -->
+        <panel id="panel_1">
+            <!-- picture file to display at the top of the panel (must be placed in /img -->
+             <picture>mypanel_1.png</picture>
+             <!-- Number of rows and cols for switches grid -->
+             <grid rows="3" cols="7"/>
+             <switches>
+                <!-- 
+                Add here as many switch as neeeded
+                a switch is defined by : 
+                - id : Rocrail ID
+                - row and col : position of the switch in the grid (must not be greater that grid size)
+                -->
+                <switch id="switch1" row="1" col="1"/>
+                <switch id="switch2" row="1" col="4"/>
+                <!-- ... -->
+             </switches>
+        </panel>
+        
+        <panel id="panel_2">
+             <picture>panel2.png</picture>
+             <grid rows="3" cols="5"/>
+             <switches>
+                <switch id="switch3" row="1" col="2"/>
+             </switches>
+        </panel>
+        <!-- ... -->
+    </panels>
+</config>

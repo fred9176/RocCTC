@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <default_panel>Aylesbury</default_panel>
+    <panels>
+        <panel id="Aylesbury">
+             <picture>aylesbury.png</picture>
+             <grid rows="3" cols="7"/>
+             <switches>
+                <switch id="sw-abp-w" row="1" col="1"/>
+                <switch id="sw-abp-e" row="1" col="4"/>
+                
+                <switch id="sw-abn-w" row="2" col="2"/>
+                <switch id="sw-abn-e" row="2" col="5"/>                
+                <switch id="sw-ab-e" row="2" col="6"/>
+                
+                <switch id="sw-ab-siding1" row="3" col="1"/>
+                <switch id="sw-abs-w" row="3" col="2"/>
+                <switch id="sw-ab-siding2" row="3" col="7"/>
+             </switches>
+        </panel>
+        
+        <panel id="Wymore">
+             <picture>wymore.png</picture>
+             <grid rows="1" cols="5"/>
+             <switches>
+                <switch id="sw-wmn-w" row="1" col="1" invert="true"/>
+                <switch id="sw-wms" row="1" col="4" invert="true"/>
+                <switch id="sw-wmn-e" row="1" col="5"/>
+             </switches>
+        </panel>
+        
+        <panel id="Whiteleaf Junction">
+             <picture>whiteleaf.png</picture>
+             <grid rows="2" cols="5"/>
+             <switches>
+                <switch id="sw-wln-w" row="1" col="1"/>
+                <switch id="sw-wln-e" row="1" col="5"/>
+
+                <switch id="sw-wls-w" row="2" col="1"/>
+                <switch id="sw-wl-siding" row="2" col="4" invert="true"/>
+                <switch id="sw-wls-e" row="2" col="5"/>
+                
+             </switches>
+        </panel>         
+    </panels>
+</config>

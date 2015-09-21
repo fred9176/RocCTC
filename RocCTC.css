@@ -1,0 +1,49 @@
+#index {
+    /*background : #435400 !important;*/
+    background : #545c34 !important;
+}
+
+.ui-btn{
+    background-color: black !important;
+    border:0px;
+}
+
+.ui-btn-active{
+    background-color: #545c34 !important;
+    border:0px;
+}
+
+#panelPicture {
+    border: 2px solid #eee;
+    border-radius: 25px;
+    text-align:center;
+    background : #000 !important;
+    padding:8px;
+}
+
+#switchesGrid {
+    text-align:center;
+    /*border: 1px solid blue;*/
+}
+
+.gridRow {
+    display: inline-block;
+    /*border: 1px solid yellow;*/
+    /*text-align:center;*/
+}
+
+.gridCell {
+    float:left; 
+    /*border: 1px solid red;*/
+    width: 100px;
+    height: 120px;
+}
+
+.gridSwitch.left{   
+    background: url('img/switch-left.png') center bottom no-repeat; 
+}
+
+.gridSwitch.right{   
+    background: url('img/switch-right.png') center bottom no-repeat; 
+}
+

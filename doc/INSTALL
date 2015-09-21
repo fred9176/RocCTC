@@ -1,0 +1,41 @@
+Prerequisites
+-------------
+webserver (Apache, Nginx) with PHP
+
+Ubuntu / Debian : 
+    with Apache : apt-get install apache2 php5 libapache2-mod-php5
+    with Nginx : apt-get install nginx php5-fpm
+
+Windows
+    You can use Xammp to install Apache and PHP
+    
+
+Tested under
+- Ubuntu and Windows with Chrome 37+ and Firefox 31+
+- Ipad 2 and Iphone 4s on IOs 7
+- Android 4.1 on tablet 
+    
+    
+Configuration
+-------------
+
+Add the sources in a folder called RocCTC in your webserver root folder
+Edit RocCTC.xml to configure your panels (cf doc/RocCTC.xml-example for more detail)
+
+If Rocrail server is not on the same server as your sebserver, edit RocCS.php to change IP and port accordingly
+
+Start RocCTC by typing in your web browser http://localhost/RocCTC
+
+Theming
+-------
+You can customize the theme by modifying the following files : 
+- RocCTC.tpl : Page template
+- RocCTC.css : stylesheet
+- img/switch-left.png
+- img/switch-right.png
+
+Tips
+----
+With Android and IOs, you can add a shortcut to the home screen and the app will act as a real app (not diplayed in browser)
+Android : http://www.cnet.com/how-to/create-a-shortcut-to-a-web-app-using-chrome-beta-on-android/
+IOs : http://www.gottabemobile.com/2012/06/14/how-to-install-the-ios-6-beta-free-no-udid-developer/
